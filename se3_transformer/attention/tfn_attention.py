@@ -22,7 +22,7 @@ class TFNAttention(SE3Attention):
         """SE(3)-Equivariant attention using TFNs
 
         :param fiber_in: description of input fiber
-        :param attention_config: configuration for SE3Attention
+        :param config: configuration for SE3Attention
         :param tfn_config: config for TFNs
         :param share_keys_and_values: whether to compute separate key and value features.
         :param linear_project_keys: whether to use  alinear projection to compute keys
