@@ -13,7 +13,7 @@ from common.helpers.torch_utils import batched_index_select
 from common.utils import exists
 from config.se3_transformer_config import SE3TransformerConfig
 from common.repr.basis import get_basis
-from common.equivariant.attention.tfn_attention import TFNAttention
+from se3_transformer.attention.tfn_attention import TFNAttention
 
 from common.equivariant.units.fiber_units import (
     FiberNorm,

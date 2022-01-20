@@ -16,7 +16,7 @@ from common.equivariant.units.fiber_units import FiberLinear
 from common.invariant.distance_conv import PairwiseDistanceConv
 from common.constants import DIST_SCALE
 from typing import Tuple, Dict, Optional
-from common.equivariant.attention.utils import (
+from se3_transformer.attention.utils import (
     compute_hidden_coords,
     get_rel_dists,
     get_degree_scale_for_attn,

@@ -4,7 +4,7 @@ from common.repr.fiber import Fiber, chunk_fiber
 from common.equivariant.tfn.tfn import ConvSE3
 from common.equivariant.units.fiber_units import FiberLinear
 from typing import Tuple, Dict, Optional
-from common.equivariant.attention.se3_attention import SE3Attention
+from se3_transformer.attention.se3_attention import SE3Attention
 from config.se3_attention_config import SE3AttentionConfig
 from config.tfn_config import TFNConfig
 
