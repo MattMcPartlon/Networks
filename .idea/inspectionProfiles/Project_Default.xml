@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="85" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E731" />
+          <option value="E402" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N813" />
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="lazy_property" />
+          <option value="_PathLike.endswith" />
+          <option value="heads" />
+          <option value="use_dist_sim" />
+          <option value="dim_heads" />
+          <option value="edge_dim" />
+          <option value="global_feats_dim" />
+          <option value="attend_self" />
+          <option value="use_null_kv" />
+          <option value="share_attn_weights" />
+          <option value="learn_head_weights" />
+          <option value="use_coord_attn" />
+          <option value="append_edge_attn" />
+          <option value="pair_bias" />
+          <option value="append_norm" />
+          <option value="use_dist_conv" />
+          <option value="pairwise_dist_conv" />
+          <option value="num_dist_conv_filters" />
+          <option value="append_hidden_dist" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
