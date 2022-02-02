@@ -52,7 +52,7 @@ class TFNTransformer(SE3Transformer):
                 ])
             )
         for _ in range(max(0, config.conv_out_layers - 1)):
-            self.pre_tfn_layers.append(
+            self.post_tfn_layers.append(
                 nn.ModuleList([
                     ConvSE3(conv_out_config(fiber_out=config.fiber_hidden)),
                     FiberNorm(fiber=config.fiber_hidden, nonlin=config.nonlin),
